@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="Fragments.MapFragment">
+
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/mapLinearLayout"/>
+
+    <LinearLayout
+        android:id="@+id/mapLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/littlePersonImageID"
+            android:layout_margin="25dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:contentDescription="@string/theIcon"/>
+
+        <TextView
+            android:id="@+id/eventInfoTextBoxID"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:paddingRight="45dp"
+            android:paddingTop="30dp"
+            android:text="@string/mapFragmentMessage"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</RelativeLayout>
+
