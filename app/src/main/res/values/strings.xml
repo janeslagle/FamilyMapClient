@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">FamilyMap</string>
+
+    <!-- Everything need for menu buttons in map fragment -->
+    <string name="menuSearchButton">Search</string>
+    <string name="menuSettingsButton">Settings</string>
+
+    <!-- Everything needed for the login fragment screen -->
+    <string name="serverHost">Server Host:</string>
+    <string name="serverPort">Server Port:</string>
+    <string name="username">User Name:</string>
+    <string name="password">Password:</string>
+    <string name="firstName">First Name:</string>
+    <string name="lastName">Last Name:</string>
+    <string name="email">Email:</string>
+    <string name="gender">Gender:</string>
+    <string name="male">Male:</string>
+    <string name="female">Female:</string>
+    <string name="signIn">SIGN IN:</string>
+    <string name="register">REGISTER:</string>
+
+    <!-- Everything needed for the map fragment screen -->
+    <string name="mainActivityTitle">Map</string>
+    <string name="mapFragmentMessage">Click on a marker to see event details</string>
+    <string name="theIcon">Person Image</string>
+
+    <!-- Everything needed for the settings activity screen -->
+    <string name="lifeStoryLines">Life Story Lines</string>
+    <string name="showLifeStoryLines">SHOW LIFE STORY LINES</string>
+    <string name="familyTreeLines">Family Tree Lines</string>
+    <string name="showFamilyTreeLines">SHOW FAMILY TREE LINES</string>
+    <string name="spouseLines">Spouse Lines</string>
+    <string name="showSpouseLines">SHOW SPOUSE LINES</string>
+    <string name="fathersSideLines">Father\'s Side</string>
+    <string name="showFathersSideLines">FILTER BY FATHER\'S SIDE OF FAMILY</string>
+    <string name="mothersSideLines">Mother\'s Side</string>
+    <string name="showMothersSideLines">FILTER BY MOTHER\'S SIDE OF FAMILY</string>
+    <string name="maleEvents">Male Event\'s</string>
+    <string name="showMaleEvents">FILTER EVENTS BASED ON GENDER</string>
+    <string name="femaleEvents">Female Event\'s</string>
+    <string name="showFemaleEvents">FILTER EVENTS BASED ON GENDER</string>
+    <string name="logout">Logout</string>
+    <string name="logoutMessage">RETURN TO LOGIN SCREEN</string>
+
+    <!-- Everything need for Person activity screen -->
+    <string name="personFirstName">First Name</string>
+    <string name="personLastName">Last Name</string>
+    <string name="personGender">Gender</string>
+    <string name="lifeEventsListTitle">LIFE EVENTS</string>
+    <string name="personFamilyListTile">FAMILY</string>
+    <string name="spouse">Spouse</string>
+    <string name="mother">Mother</string>
+    <string name="father">Father</string>
+    <string name="child">Child</string>
+    <string name="genderImageIcon">Gender Icon</string>
+    <string name="eventImageIcon">Location Icon</string>
+
+</resources>
